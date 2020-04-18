@@ -1,0 +1,7 @@
+# Ignore files, folders and database
+
+db.sqlite3
+manage.py
+media/
+**/__pycache__
+

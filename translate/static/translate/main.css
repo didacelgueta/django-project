@@ -1,0 +1,60 @@
+body {
+  background: #fafafa;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 3.5rem;
+}
+
+h1 {
+  color: #1a1969;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: georgia;
+}
+
+.page-holder { min-height: 100vh; }
+
+.bg-cover { background-size: cover !important; }
+
+.text {
+  color: #06062e;
+  font-size: 18px;
+  font-family: georgia;
+}
+
+.user-color { color: #423e3e; }
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+#registerForm {
+  margin-top:5;
+  width: 500px;
+  height: 800px;
+  position:relative;
+}
+
+#loginForm {
+  margin-top:5;
+  width: 500px;
+  height: 420px;
+  position:relative;
+}
+
+#profileForm {
+  margin-top:3;
+  width: 500px;
+  height: 830px;
+  position:relative;
+}
+
+#image{
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:absolute;

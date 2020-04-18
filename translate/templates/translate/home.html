@@ -1,0 +1,32 @@
+{% extends "translate/base.html" %}
+{% block content %}
+  <div class="row pb-5">
+    <div class="col-md-12 center-block titles-color">
+		    <h1 class="content-section pt-5" style="text-align:center;">THE APP FOR LEARNING LANGUAGES</h1>
+	  </div>
+  </div>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 pt-5">
+        <a type="button" class="btn btn-dark btn-lg btn-block pt-3 pb-3" href="{% url 'translate' %}">Translate word</a>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <a type="button" class="btn btn-secondary btn-lg btn-block pt-3 pb-3" href="{#}">My list</a>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <a type="button" class="btn btn-light btn-lg btn-block pt-3 pb-3" href="{% url 'translate' %}">Translate text</a>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+
+{% endblock content %}
